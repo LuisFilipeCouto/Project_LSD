@@ -1,0 +1,27 @@
+library	IEEE;
+use		IEEE.STD_LOGIC_1164.all;
+use		IEEE.NUMERIC_STD.all;
+
+
+entity TrocoCounter is 
+	
+	port	(	euro	      : in	std_logic_vector(13 downto 0);
+				centimo	   : in	std_logic_vector(13 downto 0);
+				euroD       : out std_logic_vector(13 downto 0);
+				euroU	      : out std_logic_vector(13 downto 0); 
+				centimoD	   : out std_logic_vector(13 downto 0);
+				centimoU	   : out std_logic_vector(13 downto 0)
+			);
+
+end TrocoCounter;  
+
+
+architecture Behavioral of TrocoCounter is
+
+
+
+
+
+
+
+end Behavioral;

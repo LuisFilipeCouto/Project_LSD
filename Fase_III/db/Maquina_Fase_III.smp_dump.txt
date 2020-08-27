@@ -1,0 +1,11 @@
+
+State Machine - |Maquina_Fase_III|FSM:fsm|s_currentState
+Name s_currentState.LEVANTAMENTO s_currentState.PAY s_currentState.CAPPU s_currentState.CHOC s_currentState.CURTO s_currentState.LONGO s_currentState.FREEZE s_currentState.INIT 
+s_currentState.INIT 0 0 0 0 0 0 0 0 
+s_currentState.FREEZE 0 0 0 0 0 0 1 1 
+s_currentState.LONGO 0 0 0 0 0 1 0 1 
+s_currentState.CURTO 0 0 0 0 1 0 0 1 
+s_currentState.CHOC 0 0 0 1 0 0 0 1 
+s_currentState.CAPPU 0 0 1 0 0 0 0 1 
+s_currentState.PAY 0 1 0 0 0 0 0 1 
+s_currentState.LEVANTAMENTO 1 0 0 0 0 0 0 1 
