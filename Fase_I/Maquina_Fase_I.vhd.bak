@@ -1,0 +1,11 @@
+library work;
+library IEEE;
+use     IEEE.STD_LOGIC_1164.all;
+
+
+
+
+
+entity Maquina_Fase_I is
+
+

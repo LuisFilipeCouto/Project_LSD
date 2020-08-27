@@ -1,0 +1,37 @@
+library	IEEE;
+use		IEEE.STD_LOGIC_1164.all;
+use		IEEE.NUMERIC_STD.all;
+
+
+entity BIN2BCD is 
+	
+	port	(	sec	      : in	std_logic_vector(5 downto 0);
+				centSec	   : in	std_logic_vector(6 downto 0);
+				secU	      : out std_logic_vector(3 downto 0); 
+				secD        : out std_logic_vector(3 downto 0);
+				centSecU	   : out std_logic_vector(3 downto 0);
+				centSecD	   : out std_logic_vector(3 downto 0)
+			);
+
+end Bin2BCD;
+
+architecture Behavioral of BIN2BCD is
+
+signal s_secU     : std_logic_vector(5 downto 0);
+signal s_secD     : std_logic_vector(5 downto 0);
+signal s_centSecU : std_logic_vector(6 downto 0);
+signal s_centSecD : std_logic_vector(6 downto 0);
+
+begin
+
+	s_secU 	   <= std_logic_vector(unsigned(sec) rem 10);
+	s_secD 	   <= std_logic_vector(unsigned(sec)/10);
+	s_centsecU 	<= std_logic_vector(unsigned(centSec) rem 10);
+	s_centsecD 	<= std_logic_vector(unsigned(centSec)/10);		
+	
+	secU		   <= s_secU(3 downto 0);
+	secD		   <= s_secD(3 downto 0);
+	centSecU		<= s_centSecU(3 downto 0);
+	centSecD		<= s_centSecD(3 downto 0);
+
+end Behavioral;
