@@ -19,7 +19,7 @@ The [final phase](Fase_III) makes up for the [main system](Fase_III/Maquina_Fase
 </ul>
 
 ### Detailed description/usage 
-Read the project report -> **LSD_Relatorio_P6_89078_95057.pdf**. 
+Read the project report -> [**LSD_Relatorio_P6_89078_95057.pdf**](LSD_Relatorio_P6_89078_95057.pdf).
 
 ### Programming Languages 
 `VHDL`
