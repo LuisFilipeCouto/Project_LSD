@@ -9,11 +9,11 @@ The [final phase](Fase_III) makes up for the [main system](Fase_III/Maquina_Fase
   <li>Adder</li>
   <li>Register</li>
   <li>Accumulator</li>
+  <li>Timer</li>
   <li>Frequency Divider</li>
   <li>Binary to BCD</li>
-  <li>Timer</li>
-  <li>Debounce Unit</li>
   <li>7 Segment Display Decoder </li>
+  <li>Debounce Unit</li>
   <li>Change Counter</li>
   <li>Finite State Machine</li>  
 </ul>
