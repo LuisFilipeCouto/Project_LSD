@@ -4,7 +4,7 @@
 A system designed to replicate the functioning of a coffee vending machine on FPGAs (DE2-115 kit). 
 It consists of three phases, each one implementing all the functionalities of the previous phases while also adding new ones. 
 
-The [final phase](Fase_III) makes up for the [main system](Fase_III/Maquina_Fase_III.vhd) and it consists of 10 components:
+The [final phase](Fase_III) contains the [main system](Fase_III/Maquina_Fase_III.vhd) of this project and it incorporates 10 components:
 <ul>
   <li>Adder</li>
   <li>Register</li>
