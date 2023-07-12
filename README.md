@@ -19,6 +19,3 @@ The [final phase](Fase_III) is the most complete and contains the [main system](
 
 ### Detailed description/usage 
 Read the project report -> [**LSD_Relatorio_P6_89078_95057.pdf**](LSD_Relatorio_P6_89078_95057.pdf)
-
-### Programming/Scripting/Markup Languages
-`VHDL`
